@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h4,h5,h6{
+    
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+}
+p{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;   
+}
+a{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;   
+}   
+
+
+/* ..................nav sec0 start ................*/
+.sec0 {
+    background: rgb(240, 145, 87);
+    padding: 0px 10% 0px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo img{
+    width: 100px;
+}
+.menu-items ul li {
+    display: inline;
+
+}
+
+.menu-items ul li a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: blue;
+}
+
+.menu-items ul li a:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(52, 49, 47);
+    padding: 10px 10px;
+}
+
+/*............. nav sec0 end............... */
+
+/* ...................sec1 start .............*/
+
+.sec1 {
+
+    padding: 100px 10% 30px 10%;
+    background-color: rgb(70, 171, 201);
+}
+
+.sec1 h1 {
+    color: #ffc000;
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    line-height: 60px;
+    border-left: 5px solid rgb(255, 213, 0);
+    font-weight: 900;
+}
+
+.diff {
+    color: rgb(247, 246, 244);
+}
+
+.sec1p1 {
+    font-size: 17px;
+    line-height: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.sec1p2 {
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+.btn1 {
+    /* background-color: rgb(247 176 29); */
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-image:linear-gradient(to left, orange, red);
+}
+.btn1:hover{
+    background-color: rgb(240, 238, 233);
+    border-radius: 5px;
+    color: rgb(149, 62, 62);  
+    background-image:linear-gradient(to left, rgb(0, 242, 255), rgb(68, 129, 139));
+}
+
+.sec1row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sec1left-col {
+    flex-basis: 45%;
+    /* background-color: #fff; */
+    padding: 50px 0px 0px 0px;
+}
+
+.sec1right-col {
+    flex-basis: 45%;
+    text-align: right;
+}
+
+.sec1img {
+    width: 75%;
+}
+
+/* ................sec 1 end................. */
+/* ........sec2 start...... */
+.sec2 {
+    padding: 0px 10% 30px 10%;
+    background-color: rgb(70, 150, 201);
+}
+
+.sec2row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* box-sizing: border-box; */
+}
+
+.sec2left {
+    flex-basis: 30%;
+    background-color: rgb(97, 226, 226);
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0px 2px #2b746d;
+}
+
+.sec2centre {
+    flex-basis: 30%;
+    background-color: rgb(97, 226, 226);
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0px 2px #2b746d;
+}
+
+.sec2right {
+    flex-basis: 30%;
+    background-color: rgb(97, 226, 226);
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0px 2px #2b746d;
+}
+
+.icon1 {
+
+    font-size: 30px;
+    color: #ad4040;
+    padding: 5px;
+}
+
+.sec2h3 {
+    font-size: 20px;
+    color: #f7f2ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.ourservice {
+    text-align: center;
+    color: #e9a806;
+    padding: 20px 0px;
+    font-size: 50px;
+}
+
+/*................... footer.............. */
+
+footer{
+    background-color: rgb(48, 46, 46);
+    text-align: center;
+    color: #f7f2ff;
+    padding: 20px;
+    
+}
+
+/* ............form section .................*/
+
+.sec-form{
+    padding: 10px 10% 100px 10%;   
+}
+.sec-form h1{
+    text-align: center;
+}
+
+form{
+    /* background: red; */
+    width: 500px;
+    margin: auto;
+}
+form p{
+    margin: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(172, 165, 165);
+}
+input:focus{
+    border: none;
+    outline: 0;
+}
+textarea{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(172, 165, 165);
+    height: 100px;
+    
+}
+textarea:focus{
+    border: none;
+    outline: 0;
+}
+.sub-btn{
+    background-color: red;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.sub-btn:hover{
+    background-color: rgb(240, 238, 233);
+    border-radius: 5px;
+    color: rgb(149, 62, 62);  
+    background-image:linear-gradient(to left, rgb(0, 242, 255), rgb(68, 129, 139));
+}
+.star{
+    color: red;
+}
+
+/* end form section */
+
+/* js */
+#demo{
+    text-align: left;
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
